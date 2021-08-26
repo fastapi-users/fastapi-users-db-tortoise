@@ -24,7 +24,7 @@ jobs:
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       run: |
-        pytest --cov=fastapi-users-db-tortoise/
+        pytest --cov=fastapi_users_db_tortoise/
         codecov
     - name: Build and install it on system host
       run: |
