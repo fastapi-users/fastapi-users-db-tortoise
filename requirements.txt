@@ -1,0 +1,2 @@
+fastapi-users >= 6.1.2
+tortoise-orm >= 0.17.6,<0.18.0
