@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
 module = "fastapi_users_db_tortoise"
-dist-name = "FastAPI Users DB for Tortoise ORM"
+dist-name = "fastapi-users-db-tortoise"
 author = "François Voron"
 author-email = "fvoron@gmail.com"
 home-page = "https://github.com/fastapi-users/fastapi-users-db-tortoise"
