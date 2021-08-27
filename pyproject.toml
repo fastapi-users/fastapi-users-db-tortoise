@@ -27,4 +27,4 @@ requires = [
 ]
 
 [tool.flit.metadata.urls]
-Documentation = "https://frankie567.github.io/fastapi-users"
+Documentation = "https://fastapi-users.github.io/fastapi-users"

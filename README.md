@@ -8,7 +8,7 @@
     <em>Ready-to-use and customizable users management for FastAPI</em>
 </p>
 
-[![build](https://github.com/fastapi-users/fastapi-users-db-tortoise/workflows/Build/badge.svg)](https://github.com/frankie567/fastapi-users/actions)
+[![build](https://github.com/fastapi-users/fastapi-users-db-tortoise/workflows/Build/badge.svg)](https://github.com/fastapi-users/fastapi-users/actions)
 [![codecov](https://codecov.io/gh/fastapi-users/fastapi-users-db-tortoise/branch/master/graph/badge.svg)](https://codecov.io/gh/fastapi-users/fastapi-users-db-tortoise)
 [![PyPI version](https://badge.fury.io/py/fastapi-users-db-tortoise.svg)](https://badge.fury.io/py/fastapi-users-db-tortoise)
 [![Downloads](https://pepy.tech/badge/fastapi-users-db-tortoise)](https://pepy.tech/project/fastapi-users-db-tortoise)
@@ -18,9 +18,9 @@
 
 ---
 
-**Documentation**: <a href="https://frankie567.github.io/fastapi-users/" target="_blank">https://frankie567.github.io/fastapi-users/</a>
+**Documentation**: <a href="https://fastapi-users.github.io/fastapi-users/" target="_blank">https://fastapi-users.github.io/fastapi-users/</a>
 
-**Source Code**: <a href="https://github.com/frankie567/fastapi-users" target="_blank">https://github.com/frankie567/fastapi-users</a>
+**Source Code**: <a href="https://github.com/fastapi-users/fastapi-users" target="_blank">https://github.com/fastapi-users/fastapi-users</a>
 
 ---
 
