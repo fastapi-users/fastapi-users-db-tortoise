@@ -10,7 +10,8 @@ from fastapi_users_db_tortoise import (
     TortoiseBaseUserModel,
     TortoiseUserDatabase,
 )
-from tests.conftest import UserDB as BaseUserDB, UserDBOAuth as BaseUserDBOAuth
+from tests.conftest import UserDB as BaseUserDB
+from tests.conftest import UserDBOAuth as BaseUserDBOAuth
 
 
 class User(TortoiseBaseUserModel):
@@ -39,7 +40,7 @@ async def tortoise_user_db() -> AsyncGenerator[TortoiseUserDatabase, None]:
 
     await Tortoise.init(
         db_url=DATABASE_URL,
-        modules={"models": ["tests.test_fastapi_users_db_tortoise"]},
+        modules={"models": ["tests.test_users"]},
     )
     await Tortoise.generate_schemas()
 
@@ -55,7 +56,7 @@ async def tortoise_user_db_oauth() -> AsyncGenerator[TortoiseUserDatabase, None]
 
     await Tortoise.init(
         db_url=DATABASE_URL,
-        modules={"models": ["tests.test_fastapi_users_db_tortoise"]},
+        modules={"models": ["tests.test_users"]},
     )
     await Tortoise.generate_schemas()
 
