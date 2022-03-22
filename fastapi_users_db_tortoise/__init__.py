@@ -15,7 +15,7 @@ __version__ = "1.1.1"
 class TortoiseBaseUserModel(models.Model):
     id = fields.UUIDField(pk=True, generated=False)
     email = fields.CharField(index=True, unique=True, null=False, max_length=255)
-    hashed_password = fields.CharField(null=False, max_length=255)
+    hashed_password = fields.CharField(null=False, max_length=1024)
     is_active = fields.BooleanField(default=True, null=False)
     is_superuser = fields.BooleanField(default=False, null=False)
     is_verified = fields.BooleanField(default=False, null=False)
@@ -27,9 +27,9 @@ class TortoiseBaseUserModel(models.Model):
 class TortoiseBaseOAuthAccountModel(models.Model):
     id = fields.UUIDField(pk=True, generated=False, max_length=255)
     oauth_name = fields.CharField(null=False, max_length=255)
-    access_token = fields.CharField(null=False, max_length=255)
+    access_token = fields.CharField(null=False, max_length=1024)
     expires_at = fields.IntField(null=True)
-    refresh_token = fields.CharField(null=True, max_length=255)
+    refresh_token = fields.CharField(null=True, max_length=1024)
     account_id = fields.CharField(index=True, null=False, max_length=255)
     account_email = fields.CharField(null=False, max_length=255)
 
