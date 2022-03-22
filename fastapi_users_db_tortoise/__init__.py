@@ -9,7 +9,7 @@ from tortoise.contrib.pydantic import PydanticModel
 from tortoise.exceptions import DoesNotExist
 from tortoise.queryset import QuerySetSingle
 
-__version__ = "1.1.1"
+__version__ = "2.0.0"
 
 
 class TortoiseBaseUserModel(models.Model):
